@@ -1,6 +1,6 @@
-ARG UBUNTU_VERSION=22.04
+ARG UBUNTU_VERSION=24.04
 # Use the official Docker Hub Ubuntu base image
-FROM ubuntu:${UBUNTU_VERSION}
+FROM ubuntu:latest
 # An `ARG` declared before a `FROM` instruction is only in scope
 # for the `FROM` instruction.
 ARG UBUNTU_VERSION
